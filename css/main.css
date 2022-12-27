@@ -1,6 +1,6 @@
 main {
     background-image: url(../image/bg.png);
-    background-color: rgb(#cccccc);
+    /* background-color: rgb(#cccccc); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,26 +9,49 @@ main {
     font-family: Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 /* div {
     display: inline-block;
 } */
+
+.spacer {
+    /* width: 100%; */
+    height: 25%;
+}
 
 .container {
     margin-left: calc((100% - 300px)/2);
     width: 300px;
     height: 450px;
-    background-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
 }
 
-.spacer {
-    margin-left: calc((100% - 300px)/2);
-    width: 300%;
-    height: 50px;
+h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
 }
 
-/* .inputContainer {
+input {
+    width: 230px;
+    display: block;
+    margin: 15px;
+    margin-left: 25px;
+    height: 25px;
+    border: 0;
+    padding: 0;
+    border-radius: 12px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.inputsContainer>input {
     display: inline-block;
-    width: 97px;
-    margin: 0 0 15px 25px;
-} */
+    width: 90px;
+    margin: 0 0 5px 25px;
+}
