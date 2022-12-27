@@ -3,7 +3,32 @@ main {
     background-color: rgb(#cccccc);
     background-position: center;
     background-size: cover;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    font-family: Helvetica, sans-serif;
 }
+
+/* div {
+    display: inline-block;
+} */
+
+.container {
+    margin-left: calc((100% - 300px)/2);
+    width: 300px;
+    height: 450px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.spacer {
+    margin-left: calc((100% - 300px)/2);
+    width: 300%;
+    height: 50px;
+}
+
+/* .inputContainer {
+    display: inline-block;
+    width: 97px;
+    margin: 0 0 15px 25px;
+} */
